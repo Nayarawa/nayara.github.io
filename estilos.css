@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #603BA7;
+    color: #609BFC;
 }
 
 :root {
-    --main-color: #16b93a;
+    --main-color: #60CCFC;
 }
 
 header, section, footer {
@@ -68,6 +68,11 @@ footer {
     text-align: center;
 }
 
+.language:hover{
+
+    background-color: #603BA7;
+}
+
 .language span {
     font-size: 50px;
     margin-bottom: 10px;
@@ -98,6 +103,11 @@ footer {
     text-align: center;
 }
 
+.skill:hover{
+
+    background-color: #603BA7;
+}
+
 .skill span {
     font-size: 50px;
     margin-bottom: 10px;
@@ -113,6 +123,11 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
+}
+
+.job:hover{
+    
+    background-color: #603BA7;
 }
 
 .job {
@@ -144,6 +159,8 @@ footer {
     gap: 20px;
 }
 
+
+
 .degree {
     display: flex;
     flex-direction: column;
@@ -154,6 +171,11 @@ footer {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     width: 250px; /* Ajuste según necesidad */
     text-align: center;
+}
+
+.degree:hover{
+    
+    background-color: #603BA7;
 }
 
 .degree span {
@@ -180,7 +202,7 @@ footer {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(77, 75, 75, 0.1);
     width: 250px; /* Ajuste según necesidad */
     text-align: center;
 }
@@ -188,4 +210,17 @@ footer {
 .course span {
     font-size: 50px;
     margin-bottom: 10px;
+}
+
+
+.course:hover{
+
+    background-color: #603BA7;
+}
+
+
+.img{
+
+    width: 200px;
+
 }
