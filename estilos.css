@@ -104,7 +104,6 @@ footer {
 }
 
 .skill:hover{
-
     background-color: #603BA7;
 }
 
@@ -222,5 +221,10 @@ footer {
 .img{
 
     width: 200px;
+
+}
+
+.enlace{
+    cursor: default;
 
 }
